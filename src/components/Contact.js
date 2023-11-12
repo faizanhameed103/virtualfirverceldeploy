@@ -18,7 +18,7 @@ export default function Contact() {
         <div>
           <div>
             <h2>Phone Number : +923024531083</h2>
-            <h2>Email        : fhameed103@gmail.com</h2>
+            <h2>Email        : f03024531083@gmail.com</h2>
           </div>
         </div>
 
