@@ -111,9 +111,6 @@ function Navbar() {
           smooth={true}
           offset={0}
           duration={500}
-          onClick={() => {
-            // Additional click event handling if needed
-          }}
         >
           {item.icon} {item.text}
         </Link>
