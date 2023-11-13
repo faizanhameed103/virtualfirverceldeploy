@@ -23,7 +23,6 @@ function Navbar() {
       id : 'home',
       text:"Home",
       icon:<HomeIcon/>
-
     },
     {
       id : 'furniture',
@@ -112,7 +111,7 @@ function Navbar() {
           offset={0}
           duration={500}
         >
-          {item.icon} {item.text}
+          {item.icon} {item.text} 
         </Link>
       </ListItemButton>
     </ListItem>
