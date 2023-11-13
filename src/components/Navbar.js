@@ -20,26 +20,33 @@ function Navbar() {
   const [openMenu,setOpenMenu] = useState(false)
   const menuOptions = [
     {
+      id : 'home',
       text:"Home",
       icon:<HomeIcon/>
+
     },
     {
+      id : 'furniture',
       text:"Furniture",
       icon:<WeekendIcon/>
     },
     {
+      id : 'walldecoration',
       text:"Wall Decoration",
       icon:<WallpaperIcon/>
     },
     {
+      id : 'about',
       text:"About",
       icon:<InfoIcon/>
     },
     {
+      id : 'testimonial',
       text:"Testimonials",
       icon:<CommentRoundedIcon/>
     },
     {
+      id : 'contact',
       text:"Contact",
       icon:<PhoneRoundedIcon/>
     }
@@ -95,15 +102,25 @@ function Navbar() {
           onKeyDown={() => setOpenMenu(false)}
         >
           <List>
-            {menuOptions.map((item) => (
-              <ListItem key={item.text} disablePadding>
-                <ListItemButton>
-                  <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
-                </ListItemButton>
-              </ListItem>
-            ))}
-          </List>
+  {menuOptions.map((item) => (
+    <ListItem key={item.text} disablePadding>
+      <ListItemButton>
+        <Link
+          to={item.id}
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          onClick={() => {
+            // Additional click event handling if needed
+          }}
+        >
+          {item.icon} {item.text}
+        </Link>
+      </ListItemButton>
+    </ListItem>
+  ))}
+</List>;
           <Divider />
         </Box>
       </Drawer>
