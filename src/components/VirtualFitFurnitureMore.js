@@ -1,5 +1,6 @@
 import React from 'react';
 import './VFM.css'; // Your CSS file
+import Navbar from './Navbar';
 
 const VirtualFitFurnitureMore = () => {
   return (

@@ -12,7 +12,7 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import WeekendIcon from '@mui/icons-material/Weekend';
 import WallpaperIcon from '@mui/icons-material/Wallpaper';
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 function Navbar() {
 
   const [openMenu,setOpenMenu] = useState(false)
@@ -60,32 +60,32 @@ function Navbar() {
       spy={true} 
       smooth={true} 
       offset={-100} 
-      duration={500} >Home</Link>
+      duration={500} className="link-mobile" >Home</Link>
       <Link to="furniture" 
       spy={true} 
       smooth={true} 
       offset={-150} 
-      duration={500} >Furniture</Link>
+      duration={500} className="link-mobile">Furniture</Link>
       <Link to="walldecoration" 
       spy={true} 
       smooth={true} 
       offset={-150} 
-      duration={500} >Wall Decoration</Link>
+      duration={500} className="link-mobile">Wall Decoration</Link>
         <Link to="about" 
       spy={true} 
       smooth={true} 
       offset={-150} 
-      duration={500} >About</Link>
+      duration={500} className="link-mobile">About</Link>
         <Link to="testimonial" 
       spy={true} 
       smooth={true} 
       offset={-50} 
-      duration={500} >Testimonials</Link>
+      duration={500} className="link-mobile">Testimonials</Link>
         <Link to="contact" 
       spy={true} 
       smooth={true} 
       offset={0} 
-      duration={500} >Contact</Link>
+      duration={500} className="link-mobile">Contact</Link>
         <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">
@@ -107,7 +107,7 @@ function Navbar() {
           spy={true}
           smooth={true}
           offset={0}
-          duration={500}
+          duration={500} className="link-mobile"
         >
           {item.icon} {item.text} 
         </Link>

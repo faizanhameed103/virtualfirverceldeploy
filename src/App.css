@@ -133,7 +133,7 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 5rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -162,6 +162,13 @@ nav {
 .about-buttons-container {
   margin-top: 2rem;
   display: flex;
+}
+.link-button {
+  text-decoration: none;
+}
+.link-mobile{
+  text-decoration: none;
+  color: #000;
 }
 .watch-video-button {
   margin-left: 2rem;
@@ -276,7 +283,7 @@ nav {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .work-section-top p {
   text-align: center;

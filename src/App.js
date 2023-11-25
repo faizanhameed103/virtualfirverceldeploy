@@ -7,23 +7,25 @@ import Footer from './components/Footer';
 import VirtualFitFurniture from './components/VirtualFitFurniture';
 import VirtualWallFit from './components/VirtualWallFit';
 import VirtualFitFurnitureMore from './components/VirtualFitFurnitureMore';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
+import Welcome from './components/Welcome';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className='App'>
-    
-      <Home />
-      <VirtualFitFurniture/>
-      <VirtualWallFit/>
-      <About />
-      <Testimonial/>
-      <Contact/>
-      <Footer/>
+      <Navbar/>
       <Routes>
-      <Route path='/virtualfit' element={<VirtualFitFurnitureMore/>}/>
+        <Route path="/home" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/furniture" element={<VirtualFitFurniture/>} />
+        <Route path="/walldecoration" element={<VirtualWallFit/>} />
+        <Route path="/testimonial" element={<Testimonial/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/" element={<Welcome/>} />
+        <Route exact path="/virtualfitfurnituremore" element={<VirtualFitFurnitureMore/>} />
 
-      
     </Routes>
+    <Footer/>
     </div>
   );
 }

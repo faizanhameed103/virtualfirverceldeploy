@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 function Home() {
   return (
+    
     <div className="home-container" id='home'>
-    <Navbar />
 
     <div className="home-banner-container">
       <div className="home-bannerImage-container">
