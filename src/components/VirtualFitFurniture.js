@@ -1,6 +1,7 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
 import AboutBackgroundImage from "../Assets/ffit4.png";
+import { Link } from "react-router-dom";
 
 function VirtualFitFurniture() {
   return (
@@ -20,7 +21,10 @@ function VirtualFitFurniture() {
         Virtual furniture fit is a revolutionary and innovative solution designed to transform the way we approach interior design and space planning. This technology leverages the power of augmented reality (AR) or virtual reality (VR) to enable individuals, designers, and homeowners to virtually experiment with different furniture arrangements within their living spaces.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          
+          <button className="secondary-button">
+          <Link to={'/virtualfit'}>Learn More</Link>
+          </button>
         </div>
       </div>
     </div>
