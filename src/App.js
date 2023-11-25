@@ -10,6 +10,7 @@ import VirtualFitFurnitureMore from './components/VirtualFitFurnitureMore';
 import { Routes, Route} from 'react-router-dom';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
+import Pricing from './components/Pricing';
 function App() {
   return (
     <div className='App'>
@@ -22,7 +23,8 @@ function App() {
         <Route path="/testimonial" element={<Testimonial/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/" element={<Welcome/>} />
-        <Route exact path="/virtualfitfurnituremore" element={<VirtualFitFurnitureMore/>} />
+        <Route path="/virtualfitfurnituremore" element={<VirtualFitFurnitureMore/>} />
+        <Route path='/pricing' element={<Pricing/>}/>
 
     </Routes>
     <Footer/>

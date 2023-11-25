@@ -12,6 +12,7 @@ import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import WeekendIcon from '@mui/icons-material/Weekend';
 import WallpaperIcon from '@mui/icons-material/Wallpaper';
+import PriceChangeIcon from '@mui/icons-material/PriceChange';
 import { Link } from "react-router-dom";
 function Navbar() {
 
@@ -46,6 +47,11 @@ function Navbar() {
       id : 'contact',
       text:"Contact",
       icon:<PhoneRoundedIcon/>
+    },
+    {
+      id : 'pricing',
+      text:"Pricing",
+      icon:<PriceChangeIcon/>
     }
   ]
 
@@ -86,6 +92,11 @@ function Navbar() {
       smooth={true} 
       offset={0} 
       duration={500} className="link-mobile">Contact</Link>
+      <Link to="pricing" 
+      spy={true} 
+      smooth={true} 
+      offset={0} 
+      duration={500} className="link-mobile">Pricing</Link>
         <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">
