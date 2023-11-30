@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import VirtualFitFurniture from './components/VirtualFitFurniture';
 import VirtualWallFit from './components/VirtualWallFit';
 import VirtualFitFurnitureMore from './components/VirtualFitFurnitureMore';
+import VirtualFitWallMore from './components/VirtualFitWallMore';
 import { Routes, Route} from 'react-router-dom';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
@@ -16,14 +17,15 @@ function App() {
     <div className='App'>
       <Navbar/>
       <Routes>
+      <Route path="/" element={<Welcome/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/furniture" element={<VirtualFitFurniture/>} />
         <Route path="/walldecoration" element={<VirtualWallFit/>} />
         <Route path="/testimonial" element={<Testimonial/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/" element={<Welcome/>} />
         <Route path="/virtualfitfurnituremore" element={<VirtualFitFurnitureMore/>} />
+        <Route path='/virtualwallfitmore' element={<VirtualFitWallMore/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
 
     </Routes>

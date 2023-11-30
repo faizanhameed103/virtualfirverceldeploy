@@ -1,5 +1,8 @@
 import React from 'react';
 import './VFM.css'; // Your CSS file
+import W1 from '../Assets/wall1.jpg'
+import W2 from '../Assets/wall2.jpg'
+import W3 from '../Assets/wall3.jpg'
 
 const VirtualFitWallMore = () => {
   return (
@@ -7,30 +10,26 @@ const VirtualFitWallMore = () => {
       <div className="blog-section">
         <div className="photo-part">
           <img
-            src="https://via.placeholder.com/560x315" // Replace with your image URL
+            src={W1} // Replace with your image URL
             alt="Sample"
           />
         </div>
         <div className="text-part">
-          <h1>Virtually Fit Furniture</h1>
+          <h1>Virtually Wall Fit</h1>
           <p>
-Virtual furniture fit is a revolutionary and innovative solution designed to transform the way we approach interior design and space planning. This technology leverages the power of augmented reality (AR) or virtual reality (VR) to enable individuals, designers, and homeowners to virtually experiment with different furniture arrangements within their living spaces.
-
-With virtual furniture fit, you can superimpose 3D models of furniture items onto your room through a smartphone app or a VR headset, giving you the ability to visualize how various pieces will look and fit in your actual environment. This not only simplifies the decision-making process but also helps in preventing costly mistakes, as you can assess factors like scale, color, and placement without the need to physically move or purchase any furniture.</p>
+          The idea of virtual wall decoration heralds a groundbreaking approach, utilizing cutting-edge technology to revolutionize the way individuals and interior designers reimagine their living spaces. This innovative concept introduces a realm where walls cease to be mere partitions; they become canvases waiting to be adorned with customized artistry. By harnessing this technology, individuals can embark on a creative journey, exploring an extensive array of design elements. From an extensive palette of paint hues to an ever-expanding library of wallpapers, decals, and stunning artwork collections, the possibilities become boundless. This revolutionary approach liberates individuals from the constraints of conventional interior design, enabling them to experiment, envision, and materialize their artistic aspirations with unparalleled convenience.</p>
         </div>
       </div>
 
       <div className="blog-section"> 
         <div className="text-part">
-          <h1>Virtually Fit Furniture</h1>
+          <h1>Virtually Wall Fit</h1>
           <p>
-          Whether you’re planning a complete home makeover or simply considering a few changes to your existing decor, virtual furniture fit offers an immersive and interactive platform for trying out various layouts and styles, ensuring that your space is both aesthetically pleasing and functional. This technology has become an invaluable tool for interior designers, retail furniture outlets, and consumers alike, providing a seamless and engaging experience that makes the interior design process more efficient and enjoyable.
-
-Virtual furniture fit goes beyond mere visualization; it empowers users to explore a wide range of design options, experiment with different furniture combinations, and fine-tune every aspect of their interior spaces. By interacting with virtual furniture in real-time, users can gauge how each piece fits within the context of their room’s architecture, lighting, and decor style.</p>
+          Virtual wall decoration stands as a pinnacle in the fusion of technology and interior design, offering an unparalleled avenue for personal expression within living spaces. This transformative concept transcends the traditional confines of wall embellishment, opening doors to a realm of infinite creativity. By embracing this technological innovation, individuals and design enthusiasts gain the ability to curate their environments effortlessly. They can sample diverse paint tones, explore eclectic wallpaper designs, experiment with striking artwork, and seamlessly visualize their choices in real-time without making any physical alterations. This digital playground empowers users to shape and redefine their spaces, allowing their imagination to flourish as they craft unique, personalized aesthetics that resonate with their individuality.</p>
         </div>
       <div className="photo-part">
           <img
-            src="https://via.placeholder.com/560x315" // Replace with your image URL
+            src={W2} // Replace with your image URL
             alt="Sample"
           />
         </div>
@@ -41,16 +40,14 @@ Virtual furniture fit goes beyond mere visualization; it empowers users to explo
       <div className="blog-section">
       <div className="photo-part">
           <img
-            src="https://via.placeholder.com/560x315" // Replace with your image URL
+            src={W3} // Replace with your image URL
             alt="Sample"
           />
         </div>
         <div className="text-part">
-          <h1>Virtually Fit Furniture</h1>
+          <h1>Virtually Wall Fit</h1>
           <p>
-Virtual furniture fit is a revolutionary and innovative solution designed to transform the way we approach interior design and space planning. This technology leverages the power of augmented reality (AR) or virtual reality (VR) to enable individuals, designers, and homeowners to virtually experiment with different furniture arrangements within their living spaces.
-
-With virtual furniture fit, you can superimpose 3D models of furniture items onto your room through a smartphone app or a VR headset, giving you the ability to visualize how various pieces will look and fit in your actual environment. This not only simplifies the decision-making process but also helps in preventing costly mistakes, as you can assess factors like scale, color, and placement without the need to physically move or purchase any furniture.</p>
+          The advent of virtual wall decoration heralds a new era in the interior design landscape, presenting an avant-garde platform that melds the physical and digital realms harmoniously. This pioneering concept redefines the very essence of wall adornment, offering an immersive experience that thrives on versatility and innovation. Through the lens of this technology, users and designers alike are invited into an expansive universe of creative exploration. They can effortlessly experiment with an extensive spectrum of design elements, from subtle color variations to intricate patterns, textures, and captivating artwork. This dynamic platform enables users to navigate through an eclectic array of decor options, empowering them to envision, conceptualize, and refine their ideal aesthetic vision for their living spaces, all in a virtual realm that transcends the limitations of the physical world.</p>
         </div>
       </div>
     </div>

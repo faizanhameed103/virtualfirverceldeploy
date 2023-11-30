@@ -1,5 +1,6 @@
 import React from "react";
 import AboutBackgroundImage from "../Assets/wfit1.jpg";
+import { Link } from "react-router-dom";
 function VirtualWallFit() {
   return (
     <div className="about-section-container" id="walldecoration">
@@ -15,7 +16,11 @@ function VirtualWallFit() {
         Virtual wall decoration is an innovative concept that leverages technology to help individuals and interior designers transform plain walls into personalized works of art. This technology allows users to experiment with a wide range of wall decor options, from paint colors and wallpapers to artwork, decals, and more, all without the need to physically alter their living space.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+        <Link to='/virtualwallfitmore' className="link-button">
+        <button className="secondary-button">
+         Learn more
+         </button>
+         </Link>
         </div>
       </div>
     </div>

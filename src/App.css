@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   margin: 0;
   padding: 0;
@@ -226,7 +229,19 @@ nav {
   max-width: 110px;
 }
 .footer-icons {
-  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between; /* or any other preferred spacing */
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .footer-icons {
+    flex-direction: column; /* Change to a column layout for smaller screens */
+    align-items: flex-start; /* Align items to the start of the column */
+  }
+  
+  .footer-icons > * {
+    margin-bottom: 10px; /* Add spacing between icons in the column layout */
+  }
 }
 .footer-icons svg {
   font-size: 1.5rem;
@@ -273,7 +288,10 @@ nav {
   max-width: 500px;
   font-size: 1.1rem;
   margin: 2rem 0rem;
+}.testimonials-stars-container {
+  display: flex;
 }
+
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
