@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function VirtualFitFurniture() {
   return (
-    <div className="about-section-container" id="furniture">
+    <div className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -14,23 +14,23 @@ function VirtualFitFurniture() {
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">Furniture</p>
-        <h1 className="primary-heading">
-          Virtual Fit Furniture
-        </h1>
+        <h1 className="primary-heading">Virtual Fit Furniture</h1>
         <p className="primary-text">
-        Virtual furniture fit is a revolutionary and innovative solution designed to transform the way we approach interior design and space planning. This technology leverages the power of augmented reality (AR) or virtual reality (VR) to enable individuals, designers, and homeowners to virtually experiment with different furniture arrangements within their living spaces.
+          Virtual furniture fit is a revolutionary and innovative solution
+          designed to transform the way we approach interior design and space
+          planning. This technology leverages the power of augmented reality
+          (AR) or virtual reality (VR) to enable individuals, designers, and
+          homeowners to virtually experiment with different furniture
+          arrangements within their living spaces.
         </p>
         <div className="about-buttons-container">
-        <Link to='/virtualfitfurnituremore' className="link-button">
-        <button className="secondary-button">
-         Learn more
-         </button>
-         </Link>
-          
+          <Link to="/virtualfitfurnituremore" className="link-button">
+            <button className="secondary-button">Learn more</button>
+          </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default VirtualFitFurniture
+export default VirtualFitFurniture;

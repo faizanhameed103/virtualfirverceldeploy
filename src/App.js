@@ -4,8 +4,6 @@ import Home from "./components/Home";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import VirtualFitFurniture from "./components/VirtualFitFurniture";
-import VirtualWallFit from "./components/VirtualWallFit";
 import VirtualFitFurnitureMore from "./components/VirtualFitFurnitureMore";
 import VirtualFitWallMore from "./components/VirtualFitWallMore";
 import { Routes, Route } from "react-router-dom";
@@ -23,8 +21,8 @@ function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/furniture" element={<VirtualFitFurniture />} />
-        <Route path="/walldecoration" element={<VirtualWallFit />} />
+        <Route path="/furniture" element={<VirtualFitFurnitureMore />} />
+        <Route path="/walldecoration" element={<VirtualFitWallMore />} />
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
         <Route

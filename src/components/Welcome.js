@@ -1,23 +1,18 @@
-import React from 'react'
-import Home from './Home'
-import VirtualFitFurniture from './VirtualFitFurniture'
-import VirtualWallFit from './VirtualWallFit'
-import About from './About'
-import Testimonial from './Testimonial';
-import Contact from './Contact';
-import Footer from './Footer';
-import VirtualFitFurnitureMore from './VirtualFitFurnitureMore'
+import React from "react";
+import Home from "./Home";
+import VirtualFitFurniture from "./VirtualFitFurniture";
+import VirtualWallFit from "./VirtualWallFit";
+import About from "./About";
+import Testimonial from "./Testimonial";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import VirtualFitFurnitureMore from "./VirtualFitFurnitureMore";
 function Welcome() {
   return (
     <>
       <Home />
-      <VirtualFitFurniture/>
-      <VirtualWallFit/>
-      <About />
-      <Testimonial/>
-      <Contact/>
-      </>
-  )
+    </>
+  );
 }
 
-export default Welcome
+export default Welcome;

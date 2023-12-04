@@ -5,10 +5,12 @@ import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 import Testimonial from "./Testimonial";
 import Contact from "./Contact";
+import VirtualFitFurniture from "./VirtualFitFurniture";
+import VirtualWallFit from "./VirtualWallFit";
 function Home() {
   return (
     <>
-      <div className="home-container" id="home">
+      <div className="home-container" id="/home">
         <div className="home-banner-container">
           <div className="home-bannerImage-container">
             <img src={BannerBackground} alt="" />
@@ -27,6 +29,8 @@ function Home() {
           </div>
         </div>
       </div>
+      <VirtualFitFurniture />
+      <VirtualWallFit />
       <Testimonial />
       <Contact />
     </>
