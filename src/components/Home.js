@@ -28,9 +28,11 @@ function Home() {
           </div>
         </div>
       </div>
-      <OurOfferings />
+      <div className="spasectionce">
+        <OurOfferings />
+      </div>
 
-      <div className="your-container">
+      <div className="your-container spasectionce">
         <br></br>
         <div className="sponsor-logos-container">
           {/* Logos aligned horizontally */}
@@ -50,11 +52,21 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="spasectionce">
+        {" "}
+        <VirtualFitFurniture />
+      </div>
+      <div className="spasectionce">
+        <VirtualWallFit />
+      </div>
 
-      <VirtualFitFurniture />
-      <VirtualWallFit />
-      <Testimonial />
-      <ContactForm />
+      <div className="spasectionce">
+        <Testimonial />
+      </div>
+
+      <div className="spasectionce">
+        <ContactForm />
+      </div>
     </>
   );
 }

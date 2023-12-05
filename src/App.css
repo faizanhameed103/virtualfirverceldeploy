@@ -35,21 +35,20 @@ nav {
 .navbar-menu-container {
   display: none;
 }
-.navbar-links-container a{
+.navbar-links-container a {
   margin-right: 3rem;
-  text-decoration:none;
+  text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
-
 }
-.navbar-links-container a:hover{
+.navbar-links-container a:hover {
   margin-right: 3rem;
-  text-decoration:none;
+  text-decoration: none;
   color: black;
   font-size: 1.1rem;
   font-weight: 600;
-  cursor:pointer;
+  cursor: pointer;
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
@@ -72,7 +71,12 @@ nav {
   font-size: 1.5rem;
   cursor: pointer;
 }
+.spasectionce {
+  margin-bottom: 200px;
+}
 .home-banner-container {
+  /* Adjust the top margin as needed */
+  margin-bottom: 100px;
   position: relative;
   display: flex;
   padding-top: 3rem;
@@ -169,7 +173,7 @@ nav {
 .link-button {
   text-decoration: none;
 }
-.link-mobile{
+.link-mobile {
   text-decoration: none;
   color: #000;
 }
@@ -238,7 +242,7 @@ nav {
     flex-direction: column; /* Change to a column layout for smaller screens */
     align-items: flex-start; /* Align items to the start of the column */
   }
-  
+
   .footer-icons > * {
     margin-bottom: 10px; /* Add spacing between icons in the column layout */
   }
@@ -288,7 +292,8 @@ nav {
   max-width: 500px;
   font-size: 1.1rem;
   margin: 2rem 0rem;
-}.testimonials-stars-container {
+}
+.testimonials-stars-container {
   display: flex;
 }
 
