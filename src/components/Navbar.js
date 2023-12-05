@@ -13,6 +13,8 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import WeekendIcon from "@mui/icons-material/Weekend";
 import WallpaperIcon from "@mui/icons-material/Wallpaper";
 import PriceChangeIcon from "@mui/icons-material/PriceChange";
+import LoginIcon from "@mui/icons-material/Login";
+import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import { Link } from "react-router-dom";
 function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -51,6 +53,16 @@ function Navbar() {
       id: "pricing",
       text: "Pricing",
       icon: <PriceChangeIcon />,
+    },
+    {
+      id: "sign-in",
+      text: "Login",
+      icon: <LoginIcon />,
+    },
+    {
+      id: "sign-up",
+      text: "Signup",
+      icon: <SubscriptionsIcon />,
     },
   ];
 
@@ -111,10 +123,9 @@ function Navbar() {
         >
           Pricing
         </Link>
+        <Link to="userprofile">Profile</Link>
         <Link to={"/sign-in"}>Login</Link>
         <Link to={"/sign-up"}>Sign up</Link>
-        <Link to="userprofile">Profile</Link>
-        <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

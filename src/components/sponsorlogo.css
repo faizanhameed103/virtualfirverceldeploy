@@ -1,0 +1,33 @@
+/* SponsorLogo.css */
+.sponsor-logos {
+  display: flex;
+  justify-content: center; /* Align logos horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+.sponsor-logo {
+  text-align: center;
+  margin-right: 40px; /* Adjust spacing between logos */
+  margin-bottom: 40px; /* Adjust spacing between logos */
+  margin-left: 40px; /* Add space between logos */
+}
+
+.logo-img {
+  width: 150px; /* Adjust the width according to your design */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.sponsor-text {
+  margin-top: 10px; /* Adjust spacing between logo and text */
+  font-size: 14px; /* Adjust text size as needed */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .sponsor-logo {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

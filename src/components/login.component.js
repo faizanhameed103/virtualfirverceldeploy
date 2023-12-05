@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Login extends Component {
   render() {
@@ -46,6 +46,6 @@ export default class Login extends Component {
           Forgot <a href="#">password?</a>
         </p>
       </form>
-    )
+    );
   }
 }
