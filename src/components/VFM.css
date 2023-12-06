@@ -14,19 +14,29 @@
   margin-right: 20px; /* Space between photo and text */
 }
 
+.text-part p {
+  font-size: x-large;
+}
 .photo-part img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* This property helps in maintaining aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
 }
 
+.photo-part img:hover {
+  transform: scale(1.05); /* Scale up on hover for an interactive effect */
+}
 .text-part {
   flex: 1;
   padding: 0 20px;
+  transition: transform 0.3s ease-in-out; /* Apply transform transition */
 }
 
-.text-part p {
-  font-size: x-large;
+.text-part:hover {
+  transform: scale(1.05); /* Scale up on hover for an interactive effect */
 }
 
 /* Additional responsive styles */

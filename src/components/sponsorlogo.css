@@ -20,8 +20,11 @@
 }
 
 .sponsor-text {
-  margin-top: 10px; /* Adjust spacing between logo and text */
-  font-size: 14px; /* Adjust text size as needed */
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center; /* Center-align the text */
+  display: inline-block; /* Allows the text to wrap and remain centered */
+  width: 100%; /* Ensures the text is centered */
 }
 
 /* Media query for mobile devices */

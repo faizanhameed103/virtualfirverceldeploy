@@ -471,3 +471,68 @@ nav {
     display: none;
   }
 }
+
+.primary-heading {
+  font-size: clamp(
+    2rem,
+    5vw,
+    3.5rem
+  ); /* Adjust font size for responsive scaling */
+  color: #4c4c4c;
+  max-width: 100%; /* Ensure responsiveness */
+  line-height: 1.2; /* Improve line height for readability */
+  margin-bottom: 1rem; /* Provide space between elements */
+}
+
+.primary-text {
+  font-size: clamp(
+    1rem,
+    2.5vw,
+    1.25rem
+  ); /* Adjust font size for responsive scaling */
+  max-width: 100%; /* Ensure responsiveness */
+  color: #6a6a6a;
+  margin-bottom: 1.5rem; /* Improve spacing between paragraphs */
+}
+
+.secondary-button {
+  padding: 1rem 2rem; /* Adjust button padding */
+  font-size: clamp(
+    0.9rem,
+    2vw,
+    1rem
+  ); /* Adjust font size for responsive scaling */
+}
+
+.about-section-container {
+  margin-top: 3rem; /* Reduce top margin for better flow */
+}
+
+/* Improve responsive behavior for smaller screens */
+@media (max-width: 800px) {
+  .primary-heading {
+    text-align: center; /* Center align on smaller screens */
+    margin-bottom: 1rem; /* Adjust spacing */
+  }
+
+  .primary-text {
+    text-align: center; /* Center align on smaller screens */
+    margin-bottom: 1.5rem; /* Adjust spacing */
+  }
+
+  .about-buttons-container {
+    justify-content: center; /* Center align buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center align items */
+    margin-top: 1.5rem; /* Adjust spacing */
+  }
+
+  .secondary-button {
+    font-size: clamp(
+      0.8rem,
+      2vw,
+      0.9rem
+    ); /* Adjust font size for responsiveness */
+    padding: 0.8rem 1.5rem; /* Adjust button padding */
+  }
+}

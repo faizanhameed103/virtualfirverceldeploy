@@ -1,14 +1,15 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/ffit1.png";
-import { FiArrowRight } from "react-icons/fi";
 import Testimonial from "./Testimonial";
-import Contact from "./Contact";
 import VirtualFitFurniture from "./VirtualFitFurniture";
 import VirtualWallFit from "./VirtualWallFit";
-import OurOfferings from "./OurOffering";
+import OurOffering from "./OurOffering";
 import SponsorLogo from "./SponsorLogo";
 import ContactForm from "./ContactForm";
+import Checkit from "../Assets/check it.png";
+import ItemImage from "../Assets/item_image.png";
+import LivingRoom from "../Assets/living-room.png";
 function Home() {
   return (
     <>
@@ -28,8 +29,31 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="spasectionce">
-        <OurOfferings />
+      <div className="spasectionce your-container">
+        <h1>Our Offerings</h1>
+        <div className="sponsor-logos-container">
+          {" "}
+          <div className="sponsor-logos">
+            <OurOffering
+              imageUrl={LivingRoom}
+              sponsorName="Develop Virtual Try-On Solution for businesses"
+            />
+            <OurOffering
+              imageUrl={Checkit}
+              sponsorName="Take customer's shopping experience to a whole new level"
+            />
+            <OurOffering
+              imageUrl={ItemImage}
+              sponsorName="Increase brand recall"
+            />
+            <OurOffering
+              imageUrl={LivingRoom}
+              sponsorName="Boost your digital strategy"
+            />
+            <OurOffering imageUrl={Checkit} sponsorName="Cut down returns" />
+            <OurOffering imageUrl={ItemImage} sponsorName="Build trust" />
+          </div>
+        </div>
       </div>
 
       <div className="your-container spasectionce">
@@ -38,15 +62,12 @@ function Home() {
           {/* Logos aligned horizontally */}
           <div className="sponsor-logos">
             <SponsorLogo
-              imageUrl="https://mail.google.com/mail/u/0?ui=2&ik=8e5c57ceda&attid=0.1&permmsgid=msg-f:1784458496967092387&th=18c3ab8c6c26a8a3&view=att&disp=safe&realattid=f_lpsj5bv42"
+              imageUrl={LivingRoom}
               sponsorName="Upload Wall/Room Image"
             />
+            <SponsorLogo imageUrl={Checkit} sponsorName="Upload item Image" />
             <SponsorLogo
-              imageUrl="https://mail.google.com/mail/u/0?ui=2&ik=8e5c57ceda&attid=0.2&permmsgid=msg-f:1784458496967092387&th=18c3ab8c6c26a8a3&view=att&disp=safe&realattid=f_lpsj5bur0"
-              sponsorName="Upload item Image"
-            />
-            <SponsorLogo
-              imageUrl="https://mail.google.com/mail/u/0?ui=2&ik=8e5c57ceda&attid=0.3&permmsgid=msg-f:1784458496967092387&th=18c3ab8c6c26a8a3&view=att&disp=safe&realattid=f_lpsj5bv01"
+              imageUrl={ItemImage}
               sponsorName="Check it virtually"
             />
           </div>
