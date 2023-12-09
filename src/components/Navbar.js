@@ -40,16 +40,6 @@ function Navbar() {
       icon: <InfoIcon />,
     },
     {
-      id: "testimonial",
-      text: "Testimonials",
-      icon: <CommentRoundedIcon />,
-    },
-    {
-      id: "contact",
-      text: "Contact",
-      icon: <PhoneRoundedIcon />,
-    },
-    {
       id: "pricing",
       text: "Pricing",
       icon: <PriceChangeIcon />,

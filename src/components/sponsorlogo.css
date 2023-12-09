@@ -23,7 +23,7 @@
   margin-top: 10px;
   font-size: 14px;
   text-align: center; /* Center-align the text */
-  display: inline-block; /* Allows the text to wrap and remain centered */
+  display: block; /* Allows the text to wrap and remain centered */
   width: 100%; /* Ensures the text is centered */
 }
 

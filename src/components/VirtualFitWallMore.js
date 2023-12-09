@@ -3,7 +3,10 @@ import "./VFM.css"; // Your CSS file
 import W1 from "../Assets/wall1.jpg";
 import W2 from "../Assets/wall2.jpg";
 import W3 from "../Assets/wall3.jpg";
-
+import Checkit from "../Assets/check it.png";
+import ItemImage from "../Assets/item_image.png";
+import LivingRoom from "../Assets/living-room.png";
+import SponsorLogo from "./SponsorLogo";
 const VirtualFitWallMore = () => {
   return (
     <div className="blog-container" id="walldecoration">
@@ -54,6 +57,7 @@ const VirtualFitWallMore = () => {
             personalized aesthetics that resonate with their individuality.
           </p>
         </div>
+
         <div className="photo-part">
           <img
             src={W2} // Replace with your image URL
@@ -65,10 +69,7 @@ const VirtualFitWallMore = () => {
       {/* Section 3 */}
       <div className="blog-section">
         <div className="photo-part">
-          <img
-            src={W3} // Replace with your image URL
-            alt="Sample"
-          />
+          <img src={W3} alt="Sample" />
         </div>
         <div className="text-part">
           <h1>Virtually Wall Fit</h1>

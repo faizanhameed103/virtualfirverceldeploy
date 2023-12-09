@@ -24,7 +24,6 @@ function App() {
         <Route path="/furniture" element={<VirtualFitFurnitureMore />} />
         <Route path="/walldecoration" element={<VirtualFitWallMore />} />
         <Route path="/testimonial" element={<Testimonial />} />
-        <Route path="/contact" element={<Contact />} />
         <Route
           path="/virtualfitfurnituremore"
           element={<VirtualFitFurnitureMore />}

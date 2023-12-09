@@ -10,6 +10,8 @@ import ContactForm from "./ContactForm";
 import Checkit from "../Assets/check it.png";
 import ItemImage from "../Assets/item_image.png";
 import LivingRoom from "../Assets/living-room.png";
+import "./wcu.css";
+import "./hiw.css";
 function Home() {
   return (
     <>
@@ -26,32 +28,6 @@ function Home() {
           </div>
           <div className="home-image-section">
             <img src={BannerImage} alt="" />
-          </div>
-        </div>
-      </div>
-      <div className="spasectionce your-container">
-        <h1>Our Offerings</h1>
-        <div className="sponsor-logos-container">
-          {" "}
-          <div className="sponsor-logos">
-            <OurOffering
-              imageUrl={LivingRoom}
-              sponsorName="Develop Virtual Try-On Solution for businesses"
-            />
-            <OurOffering
-              imageUrl={Checkit}
-              sponsorName="Take customer's shopping experience to a whole new level"
-            />
-            <OurOffering
-              imageUrl={ItemImage}
-              sponsorName="Increase brand recall"
-            />
-            <OurOffering
-              imageUrl={LivingRoom}
-              sponsorName="Boost your digital strategy"
-            />
-            <OurOffering imageUrl={Checkit} sponsorName="Cut down returns" />
-            <OurOffering imageUrl={ItemImage} sponsorName="Build trust" />
           </div>
         </div>
       </div>
@@ -73,6 +49,72 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="wcu spasectionce">
+        <header className="wcu-header">
+          <h1>Why choose us?</h1>
+        </header>
+        <section className="features">
+          <div className="feature">
+            <h2>Lowest price</h2>
+            <p>
+              Starting at only $12/month, you can virtually stage 6 images.
+              That's cheaper than what most agencies charge for a single image.
+            </p>
+          </div>
+          <div className="feature">
+            <h2>No effort</h2>
+            <p>
+              No need to write detailed instructions for designers anymore. Just
+              upload your pictures, choose room type and style, and the AI
+              automatically adds beautiful, realistic looking furniture.
+            </p>
+          </div>
+          <div className="feature">
+            <h2>Fastest turnaround</h2>
+            <p>
+              Thanks to our advanced artificial intelligence, you get your
+              virtually staged pictures within 10 seconds. No more waiting for
+              designers.
+            </p>
+          </div>
+          <div className="feature">
+            <h2>Unlimited revisions</h2>
+            <p>
+              Had something different in mind? Instead of having to go back and
+              forth with a designer, get more designs within seconds.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div className="spasectionce">
+        <h1 className="hiw">How it works</h1>
+        <section className="welcome-section">
+          <h2>1. Upload your picture</h2>
+          <p>
+            Upload a picture of an empty room and choose the room type and
+            style. We currently support staging living rooms, bedrooms,
+            kitchens, dining rooms, home offices, and closets.
+          </p>
+        </section>
+        <section className="al-magic-section">
+          <h2>2. Al Magic</h2>
+          <p>
+            Within 10 seconds our artificial intelligence processes the image to
+            understand its size and style and adds beautiful, realistic-looking
+            furniture.
+          </p>
+        </section>
+        <section className="download-section">
+          <h2>3. Download and use anywhere</h2>
+          <p>
+            Once the processing is completed you instantly get your staged
+            photo. You can use your pictures anywhere you want for as long as
+            you want.
+          </p>
+        </section>
+      </div>
+
       <div className="spasectionce">
         {" "}
         <VirtualFitFurniture />
@@ -80,11 +122,6 @@ function Home() {
       <div className="spasectionce">
         <VirtualWallFit />
       </div>
-
-      <div className="spasectionce">
-        <Testimonial />
-      </div>
-
       <div className="spasectionce">
         <ContactForm />
       </div>
