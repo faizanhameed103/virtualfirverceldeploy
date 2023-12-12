@@ -18,3 +18,22 @@
   line-height: 1.6;
   text-align: justify;
 }
+.section-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.text {
+  flex: 1;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  margin-left: 20px; /* Adjust this margin as needed */
+}
+
+.image-right {
+  max-width: 100px; /* Set the maximum width as needed */
+  height: auto;
+  vertical-align: top;
+}

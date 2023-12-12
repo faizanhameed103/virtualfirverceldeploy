@@ -32,23 +32,6 @@ function Home() {
         </div>
       </div>
 
-      <div className="your-container spasectionce">
-        <br></br>
-        <div className="sponsor-logos-container">
-          {/* Logos aligned horizontally */}
-          <div className="sponsor-logos">
-            <SponsorLogo
-              imageUrl={LivingRoom}
-              sponsorName="Upload Wall/Room Image"
-            />
-            <SponsorLogo imageUrl={Checkit} sponsorName="Upload item Image" />
-            <SponsorLogo
-              imageUrl={ItemImage}
-              sponsorName="Check it virtually"
-            />
-          </div>
-        </div>
-      </div>
       <div className="wcu spasectionce">
         <header className="wcu-header">
           <h1>Why choose us?</h1>
@@ -86,35 +69,56 @@ function Home() {
           </div>
         </section>
       </div>
-
       <div className="spasectionce">
         <h1 className="hiw">How it works</h1>
         <section className="welcome-section">
-          <h2>1. Upload your picture</h2>
-          <p>
-            Upload a picture of an empty room and choose the room type and
-            style. We currently support staging living rooms, bedrooms,
-            kitchens, dining rooms, home offices, and closets.
-          </p>
+          <div class="section-content">
+            <div class="text">
+              <h2>1. Upload your picture</h2>
+              <p>
+                Upload a picture of an empty room and choose the room type and
+                style. We currently support staging living rooms, bedrooms,
+                kitchens, dining rooms, home offices, and closets.
+              </p>
+            </div>
+            <div class="image-container">
+              <img src={Checkit} alt="Image 1" class="image-right" />
+            </div>
+          </div>
         </section>
+
         <section className="al-magic-section">
-          <h2>2. Al Magic</h2>
-          <p>
-            Within 10 seconds our artificial intelligence processes the image to
-            understand its size and style and adds beautiful, realistic-looking
-            furniture.
-          </p>
+          <div class="section-content">
+            <div class="text">
+              <h2>2. AI Magic</h2>
+              <p>
+                Within 10 seconds our artificial intelligence processes the
+                image to understand its size and style and adds beautiful,
+                realistic-looking furniture.
+              </p>
+            </div>
+            <div class="image-container">
+              <img src={ItemImage} alt="Image 2" class="image-right" />
+            </div>
+          </div>
         </section>
+
         <section className="download-section">
-          <h2>3. Download and use anywhere</h2>
-          <p>
-            Once the processing is completed you instantly get your staged
-            photo. You can use your pictures anywhere you want for as long as
-            you want.
-          </p>
+          <div class="section-content">
+            <div class="text">
+              <h2>3. Download and use anywhere</h2>
+              <p>
+                Once the processing is completed you instantly get your staged
+                photo. You can use your pictures anywhere you want for as long
+                as you want.
+              </p>
+            </div>
+            <div class="image-container">
+              <img src={LivingRoom} alt="Image 3" class="image-right" />
+            </div>
+          </div>
         </section>
       </div>
-
       <div className="spasectionce">
         {" "}
         <VirtualFitFurniture />
