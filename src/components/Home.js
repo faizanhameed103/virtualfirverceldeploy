@@ -70,7 +70,9 @@ function Home() {
         </section>
       </div>
       <div className="spasectionce">
-        <h1 className="hiw">How it works</h1>
+        <header className="wcu-header">
+          <h1>How it Works ?</h1>
+        </header>
         <section className="welcome-section">
           <div class="section-content">
             <div class="text">
@@ -119,6 +121,9 @@ function Home() {
           </div>
         </section>
       </div>
+      <header className="wcu-header">
+        <h1>Our Services</h1>
+      </header>
       <div className="spasectionce">
         {" "}
         <VirtualFitFurniture />
