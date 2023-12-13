@@ -29,15 +29,7 @@
 .photo-part img:hover {
   transform: scale(1.05); /* Scale up on hover for an interactive effect */
 }
-.text-part {
-  flex: 1;
-  padding: 0 20px;
-  transition: transform 0.3s ease-in-out; /* Apply transform transition */
-}
 
-.text-part:hover {
-  transform: scale(1.05); /* Scale up on hover for an interactive effect */
-}
 /* Your CSS file */
 /* Your CSS file */
 .banner {
@@ -55,14 +47,9 @@
     margin-bottom: 30px; /* Reduce space between sections */
   }
 
-  .photo-part,
-  .text-part {
+  .photo-part {
     margin-right: 0;
     margin-bottom: 20px; /* Space between photo and text on mobile */
-  }
-
-  .text-part p {
-    font-size: large; /* Adjust font size for smaller screens */
   }
   .banner {
     height: 20vh; /* Adjusted height for smaller screens */

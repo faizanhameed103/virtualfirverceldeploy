@@ -15,13 +15,8 @@ const VirtualFitFurnitureMore = () => {
           <div className="photo-part">
             <img src={F1} alt="Sample" />
           </div>
-          <div className="text-part">
-            <h1>Virtually Fit Furniture</h1>
-            <p>
-              Virtual furniture fit is a revolutionary and innovative solution
-              designed to transform the way we approach interior design and
-              space planning...
-            </p>
+          <div className="photo-part">
+            <img src={F1} alt="Sample" />
           </div>
         </div>
 
@@ -29,13 +24,8 @@ const VirtualFitFurnitureMore = () => {
           <div className="photo-part">
             <img src={F2} alt="Sample" />
           </div>
-          <div className="text-part">
-            <h1>Virtually Fit Furniture</h1>
-            <p>
-              Whether you’re planning a complete home makeover or simply
-              considering a few changes to your existing decor, virtual
-              furniture fit offers an immersive and interactive platform...
-            </p>
+          <div className="photo-part">
+            <img src={F2} alt="Sample" />
           </div>
         </div>
 
@@ -43,13 +33,8 @@ const VirtualFitFurnitureMore = () => {
           <div className="photo-part">
             <img src={F3} alt="Sample" />
           </div>
-          <div className="text-part">
-            <h1>Virtually Fit Furniture</h1>
-            <p>
-              Virtual furniture fit is a revolutionary and innovative solution
-              designed to transform the way we approach interior design and
-              space planning...
-            </p>
+          <div className="photo-part">
+            <img src={F3} alt="Sample" />
           </div>
         </div>
       </div>
