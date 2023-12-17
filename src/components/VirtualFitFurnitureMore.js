@@ -4,12 +4,16 @@ import F1 from "../Assets/furniture1.jpg";
 import F2 from "../Assets/furniture2.jpg";
 import F3 from "../Assets/furniture3.jpg";
 import BannerImage from "../Assets/furniture11.jpg";
+import ImageSlider from "./ImageSlider";
+
+import "./hiw.css";
 const VirtualFitFurnitureMore = () => {
   return (
     <>
-      <div className="banner spasectionce">
-        <img src={BannerImage} alt="Banner" className="banner-image" />
+      <div className="spasectionce">
+        <ImageSlider />
       </div>
+
       <div className="blog-container" id="furniture">
         <div className="blog-section">
           <div className="photo-part">
